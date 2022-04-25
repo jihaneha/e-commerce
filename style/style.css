@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* header */
+nav{
+  width: 100%;  
+  position:relative; 
+  z-index: 1;
+}
+.divnav2{
+  margin-top: 10px;
+}
+
+.burger{
+  
+  margin-left: 10px;
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+}
+.navLinks {
+  background-color: white ;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 20%;
+  transform: translateX(-100%);
+  transition: transform 1s ;
+  z-index: -1;
+}
+.search {
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  
+}
+.ouvrir{
+  display: block;
+  
+}
+.fermer{
+  display:none;
+  
+}
+.open .ouvrir {
+  display: none;
+  
+
+}
+.open .fermer{
+  display: block;
+
+}
+.open .navLinks{
+  transform:translateX(0);
+}
+/*body*/
+@keyframes animate{
+  0%{
+    background-image: url('../images/pexels-godisable-jacob-3689150.jpg') ; 
+  }
+  25% {
+    background-image: url('../images/pexels-godisable-jacob-949670.jpg');
+  }
+  50% {
+    background-image: url('../images/pexels-godisable-jacob-3689122.jpg');
+  }
+  75% {
+    background-image: url('../images/pexels-godisable-jacob-3689157.jpg');
+  }
+  100% {
+    background-image: url('../images/pexels-godisable-jacob-3689150.jpg') ; 
+  }
+}
+.div1{
+  height: 100vh;
+   position:absolute;
+   top:0;
+   left: 0;
+   width:100%;
+   animation-name : animate; 
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   background-size: cover;
+   opacity: 0.8;
+}
+.div2{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+/*login*/
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  font-size: 1.3rem;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  margin: 6px;
+  padding: 10px 30px 10px 30px;
+}
+.btn:hover{ 
+  color:black;
+  font-size: 1.4rem;
+}
+.inputcontact {
+  font-size: 1.2rem;
+  padding: 10px 250px 10px 10px;
+  margin: 6px;
+}
+.labelcontact {
+  font-size: 1.4rem;
+  padding: 4px;
+  
+}
+.formcontact {
+  text-align: center;
+}
+#pcontact {
+  font-size: 1.2rem;
+} 
+
+.section2{
+  margin-top: 500px;
+  width: 100%;
+  height: 100%;
+}
+.picture2 {
+  display: none;
+}
+.thumbnail{
+  cursor: pointer;
+}
+.thumbnail:hover .picture1 {
+  display: none;
+}
+.thumbnail:hover .picture2 {
+  display: block;
+}
+
