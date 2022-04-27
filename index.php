@@ -2,8 +2,8 @@
 include('common/head.php');
 include('common/menu.php');
 ?>
-<!-- section principale -->
-<section>
+<!-- header -->
+<header>
 <div class="div1">
     <div class="div2">
       <div>
@@ -11,7 +11,7 @@ include('common/menu.php');
       </div>
     </div>
   </div>
-</section>
+</header>
 <!-- fin de la section principale -->
 <section class="section2" >
   <h1>Les beaux jours arrivent ! </h1>

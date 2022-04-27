@@ -15,6 +15,10 @@ nav{
 .divnav2{
   margin-top: 10px;
 }
+header{
+  width:100%;
+  height: 100vh;
+}
 
 .burger{
   
@@ -34,6 +38,7 @@ nav{
   transition: transform 1s ;
   z-index: -1;
 }
+
 .search {
   text-align: center;
   background-color: #f2f2f2;
@@ -82,15 +87,15 @@ nav{
 }
 .div1{
   height: 100vh;
-   position:absolute;
-   top:0;
-   left: 0;
-   width:100%;
-   animation-name : animate; 
-   animation-duration: 20s;
-   animation-iteration-count: infinite;
-   background-size: cover;
-   opacity: 0.8;
+  /* position:absolute;  */
+  top:0;
+  left: 0;
+  width:100%;
+  animation-name : animate; 
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  opacity: 0.8;
 }
 .div2{
   position: absolute;
@@ -138,9 +143,8 @@ h1 {
 } 
 
 .section2{
-  margin-top: 500px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .picture2 {
   display: none;

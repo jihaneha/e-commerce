@@ -17,4 +17,4 @@ include('common/menu.php');
         <p id="pcontact"><a href="register.php" target="_blank">Créer un compte</a></p>
     </form>
 <?php 
-include('common/footer.php');    
+  

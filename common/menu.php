@@ -1,5 +1,4 @@
 <body>
-    <header>
         <nav class="navbar d-flex justify-content-between">
             <div id="burg">
                 <div class="burger">
@@ -57,6 +56,9 @@
                     </ul>
                 </div>
             </div>
+            <!-- <div class="logo">
+                <img src="images/GIGI'S BRAND (3).png">
+            </div> -->
             <div class="divnav2">
                 <ul class="d-flex">
                     <li>
@@ -85,4 +87,4 @@
                     </ul>
                 </div>
             </nav>
-        </header>
+        

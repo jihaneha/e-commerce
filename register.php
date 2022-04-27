@@ -19,4 +19,3 @@ include('common/menu.php');
         <button class="btn">se connecter</button>
     </form>
 <?php
-include('common/footer.php');
