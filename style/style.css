@@ -87,7 +87,7 @@ header{
 }
 .div1{
   height: 100vh;
-  /* position:absolute;  */
+  position:absolute; 
   top:0;
   left: 0;
   width:100%;
@@ -105,7 +105,7 @@ header{
   height: 100vh;
 }
 /*login*/
-h1 {
+.h1 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 40px;
@@ -157,5 +157,10 @@ h1 {
 }
 .thumbnail:hover .picture2 {
   display: block;
+}
+
+.divnw{
+  margin-top:100px;
+  margin-bottom: 100px;
 }
 

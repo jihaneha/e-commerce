@@ -1,20 +1,20 @@
 <?php
 include('common/head.php');
-include('common/menu.php');
+include('navbarpage1.php');
 ?>
 <!-- header -->
 <header>
-<div class="div1">
+<div class="div1 ">
     <div class="div2">
-      <div>
+      <!-- <div>
         <h1></h1>
-      </div>
+      </div> -->
     </div>
   </div>
 </header>
 <!-- fin de la section principale -->
 <section class="section2" >
-  <h1>Les beaux jours arrivent ! </h1>
+  <h1 class="text-center mb-4">Les beaux jours arrivent ! </h1>
  <!-- les cartes de la premiere section  -->
  <div class="container-fluid ">
     <div class="container">
@@ -57,6 +57,100 @@ include('common/menu.php');
         </div>
 </div>
 </div> 
+<!-- 2eme section photos  -->
+<div class="container-fluid ">
+    <div class="container">
+     <div class="row">
+         <div class="col-md-4 p-2 ">
+           <div class="thumbnail">
+            <div class="picture1">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-10881524.jpg" alt="combi">
+           </div>
+          <div class="picture2">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-10881525.jpg">
+           </div>
+            <h6 class="mt-2 text-center">ROBE LONGUE</h6>
+            <p class="text-center">49,99 EUR</p>
+        </div>
+        </div>
+        <div class="col-md-4   p-2 ">
+        <div class="thumbnail">
+             <div class="picture1">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto" src="images/pexels-chalo-garcia-8091951.jpg" alt="dress">
+             </div>
+             <div class="picture2">
+             <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-8091950.jpg">
+           </div>
+              <h6 class="mt-2 text-center">ENSEMBLE TOP + JUPE </h6>
+              <p class="text-center">39,99 EUR</p>
+            </div>
+        </div>
+        <div class="col-md-4   p-2 ">
+        <div class="thumbnail">
+             <div class="picture1">
+             <img class="img-responsive img-fluid cards border text-center d-block mx-auto" src="images/pexels-anastasiya-gepp-2065195.jpg" alt="dress">
+          </div>
+          <div class="picture2">
+          <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-anastasiya-gepp-2065194.jpg">
+           </div>
+            <h6 class="mt-2 text-center">ROBE LONGUE PINK</h6>
+            <p class="text-center">39,99 EUR</p>
+            </div>
+        </div>
+</div>
+</div> 
+<!-- 3eme section photos -->
+<div class="container-fluid ">
+    <div class="container">
+     <div class="row">
+         <div class="col-md-4 p-2 ">
+           <div class="thumbnail">
+            <div class="picture1">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-7959844.jpeg" alt="combi">
+           </div>
+          <div class="picture2">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-7959836.webp">
+           </div>
+            <h6 class="mt-2 text-center">ENSEMBLE BLAZER NOIR</h6>
+            <p class="text-center">49,99 EUR</p>
+        </div>
+        </div>
+        <div class="col-md-4   p-2 ">
+        <div class="thumbnail">
+             <div class="picture1">
+             <img class="img-responsive img-fluid cards border text-center d-block mx-auto" src="images/pexels-photo-7959731.jpeg" alt="dress">
+          </div>
+          <div class="picture2">
+          <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-7959721.jpeg">
+           </div>
+            <h6 class="mt-2 text-center">ENSEMBLE BLAZER BLANC</h6>
+            <p class="text-center">69,99 EUR</p>
+            </div>
+        </div>
+        <div class="col-md-4   p-2 ">
+        <div class="thumbnail">
+             <div class="picture1">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto" src="images/pexels-photo-7959765.jpeg" alt="dress">
+             </div>
+             <div class="picture2">
+             <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-7959757.jpeg">
+           </div>
+              <h6 class="mt-2 text-center">ENSEMBLE BLAZER NOIR </h6>
+              <p class="text-center">59,99 EUR</p>
+            </div>
+        </div>
+        
+</div>
+</div> 
+<!-- newsletter  -->
+<div class="text-center divnw">
+  <h4>-10% DE REDUCTION</h4>
+  <p>EN VOUS ABONNANT À NOTRE NEWSLETTER</p>
+  <p>Retrouvez-y également toutes nos actus & offres exclusives</p>
+  <input class="p-2 h5" placeholder="inscrivez-vous "></input>
+  <button class="p-2 bg-danger border-0">S'inscrire</button>
+  <h6>valable sur votre prochaine commande</h6>
+</div>
 
 <?php
 include('common/footer.php');

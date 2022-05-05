@@ -2,7 +2,7 @@
 include('common/head.php');
 include('common/menu.php');
 ?>
-<h1>Connexion</h1>
+<h1 class="text-center">Connexion</h1>
     <form class="formcontact">
         <label class="labelcontact" for="email" type="email">Email</label><br>
         <input class="inputcontact" type="email" placeholder="jane.doe@example.com" id="email">
@@ -16,5 +16,6 @@ include('common/menu.php');
         <br>
         <p id="pcontact"><a href="register.php" target="_blank">Créer un compte</a></p>
     </form>
+    <script src="main.js" type="text/javascript"></script>
 <?php 
   

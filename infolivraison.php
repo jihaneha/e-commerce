@@ -41,7 +41,7 @@ include('common/menu.php');
             <td class="p-3">International : 40€ -80€ Livraison : 4-15 jours</td>
         </tr>
     </table>
-
+    <script src="main.js" type="text/javascript"></script>
 
 
 <?php 

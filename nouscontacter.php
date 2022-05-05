@@ -15,7 +15,7 @@ include('common/menu.php');
             <textarea class="form-control" rows="3"></textarea>
         <button type="submit" class="btn btn-default  ">Envoyer</button>
       </form>
-
+      <script src="main.js" type="text/javascript"></script>
 
 <?php 
 // include('common/footer.php');  

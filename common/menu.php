@@ -15,7 +15,7 @@
                         </li>
                         <ul>
                             <li>
-                                <a href="#" class=" nav-link text-dark">Blazer|Vestes</a>
+                                <a href="blazer.php" class=" nav-link text-dark">Blazer|Vestes</a>
                             </li>
                             <li>
                                 <a href="#" class=" nav-link text-dark">Pantalons|Jupes</a>
@@ -56,9 +56,9 @@
                     </ul>
                 </div>
             </div>
-            <!-- <div class="logo">
-                <img src="images/GIGI'S BRAND (3).png">
-            </div> -->
+            <div class="logo">
+                <a href="index.php"><img src="images/GIGI'S BRAND (2) (4).png"></a>
+            </div>
             <div class="divnav2">
                 <ul class="d-flex">
                     <li>

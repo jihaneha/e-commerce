@@ -2,7 +2,7 @@
 include('common/head.php');
 include('common/menu.php');
 ?>
-<h1>Créer un compte</h1>
+<h1 class="text-center">Créer un compte</h1>
     <form class="formcontact">
         <label class="labelcontact" for="text" type="text">Prénom</label><br>
         <input class="inputcontact" type="text" id="text" placeholder="prénom" >
@@ -18,4 +18,5 @@ include('common/menu.php');
         <br>
         <button class="btn">se connecter</button>
     </form>
+    <script src="main.js" type="text/javascript"></script>
 <?php
