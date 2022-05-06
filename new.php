@@ -5,7 +5,7 @@ include('common/menu.php');
 <h1 class="h1">NOUVEAUTÉS</h1>
 <button>Filtrer</button>
 <div class="container-fluid ">
-    <div class="container">
+  <div class="container">
      <div class="row">
          <div class="col-md-4 p-2 ">
            <div class="thumbnail">
@@ -13,7 +13,8 @@ include('common/menu.php');
             <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-5372355.jpg" alt="combi">
            </div>
           <div class="picture2">
-            <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-5372356.jpg">
+            <a href="article1.php">
+            <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-5372356.jpg"></a>
            </div>
             <h6 class="mt-2 text-center">ROBE FLEURI ROUGE</h6>
             <p class="text-center">49,99 EUR</p>
@@ -25,7 +26,8 @@ include('common/menu.php');
             <img class="img-responsive img-fluid cards border text-center d-block mx-auto" src="images/pexels-chalo-garcia-5489730.jpg" alt="dress">
              </div>
              <div class="picture2">
-             <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-5489750.jpg">
+               <a href="article1.php">
+             <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-5489750.jpg"></a>
            </div>
               <h6 class="mt-2 text-center">ROBE FLEURI VERTE</h6>
               <p class="text-center">49,99 EUR</p>
@@ -115,10 +117,11 @@ include('common/menu.php');
               <p class="text-center">79,99 EUR</p>
             </div>
         </div>
-</div>
+  </div>
 </div> 
+<div class="col-12 text-center">
 <nav aria-label="Page navigation example" >
-  <ul class="pagination ">
+  <ul class="pagination text-center ">
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
@@ -136,6 +139,7 @@ include('common/menu.php');
     </li>
   </ul>
 </nav>
+</div>
 
 <?php 
 include('common/footer.php');   

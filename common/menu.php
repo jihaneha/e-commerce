@@ -56,7 +56,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="logo">
+            <div class="logo ml-2">
                 <a href="index.php"><img src="images/GIGI'S BRAND (2) (4).png"></a>
             </div>
             <div class="divnav2">

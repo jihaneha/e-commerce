@@ -2,40 +2,15 @@
 include('common/head.php');
 include('common/menu.php');
 ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light m-5">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">TOUT VOIR</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">TEXTURÉES
-</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-BLAZERS CROP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">JOIN LIFE</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            FILTRER
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+<div>
+  <ul class="d-flex justify-content-center m-5">
+    <li class="m"><a class="nav-link text-dark"  href="#">TOUT VOIR</a></li>
+    <li><a class="nav-link text-dark" href="#">TEXTURÉES</a></li>
+    <li><a class="nav-link text-dark" href="#">NOIRES</a></li>
+    <li><a class="nav-link text-dark" href="#">CROPPPED</a></li>
+    <li><a class="nav-link text-dark" href="#">JOIN LIFE</a></li>
+  </ul>
+</div>
 <div class="container">
   <div class="row">
     <div class="col">
@@ -45,7 +20,7 @@ BLAZERS CROP</a>
     </div>
     <div class="col">
     <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-karolina-grabowska-7680338.jpg">
-    <h6 class="mt-2 text-center">ROBE BLANCHE</h6>
+    <h6 class="mt-2 text-center">BLAZER AJUSTÉ</h6>
     <p class="text-center">69,99 EUR</p>
     </div>
     <div class="col">

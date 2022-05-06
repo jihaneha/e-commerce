@@ -15,7 +15,7 @@
                         </li>
                         <ul>
                             <li>
-                                <a href="#" class=" nav-link text-dark">Blazer|Vestes</a>
+                                <a href="new.php" class=" nav-link text-dark">Blazer|Vestes</a>
                             </li>
                             <li>
                                 <a href="#" class=" nav-link text-dark">Pantalons|Jupes</a>
