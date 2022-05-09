@@ -2,7 +2,7 @@
 include('common/head.php');
 include('common/menu.php');
 ?>
-<section class="d-flex justify-content-between">
+<section class="d-flex justify-content-between m-3">
   <div>
     <h4>MATIÈRES, ENTRETIEN ET ORIGINE</h4>
     <h6>MATIÈRES</h6>
@@ -23,9 +23,36 @@ Les lavages à basse température et les programmes d'essorage doux sont plus d�
 De plus, grâce à la collaboration continue avec nos fournisseurs, nous avons développé un programme de traçabilité qui nous permet de savoir où et comment nos vêtements ont été confectionnés.
 Fabriqué en Indonésie</p>
   </div>
-  <div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/pexels-chalo-garcia-5489730.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/pexels-chalo-garcia-5489750.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/pexels-chalo-garcia-5489756.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> 
+  
+
+
+  <div class="m-3">
     <h4>ROBE À RAYURES CONTENANT DU LIN</h4>
     <p>Robe mi-longue confectionnée dans un tissu en mélange de lin. Col à revers, manches courtes et larges terminées par un revers avec patte boutonnée. Ceinture à boucle dorée. Poches latérales dissimulées dans la couture. Fermeture par boutons dorés sur le devant.
     </p>
@@ -46,5 +73,40 @@ Fabriqué en Indonésie</p>
     <p>LIVRAISON, ÉCHANGE ET RETOURS</p>
   </div>
 </section>
+<h2 class="text-center m-5" >Tu pourrais aussi aimer</h2>
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-8050046.jpg">
+    <h6 class="mt-2 text-center">ROBE DRAPÉE NOIR </h6>
+    <p class="text-center">39,99 EUR</p>
+    </div>
+    <div class="col">
+    <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-1055691.jpeg">
+    <h6 class="mt-2 text-center">ROBE JAUNE</h6>
+    <p class="text-center">29,99 EUR</p>
+    </div>
+    <div class="col">
+    <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-8049902.jpg">
+    <h6 class="mt-2 text-center">ROBE À IMPRIMÉ ANIMALIER</h6>
+    <p class="text-center">39,99 EUR</p>
+    </div>
+    <div class="col">
+    <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-8050052.jpg">
+    <h6 class="mt-2 text-center">COMBI-SHORT FLUID</h6>
+    <p class="text-center">29,99 EUR</p>
+    </div>
+    <div class="col">
+    <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-chalo-garcia-8091951.jpg">
+    <h6 class="mt-2 text-center">ENSEMBLE TOP + JUPE</h6>
+    <p class="text-center">39,99 EUR</p>
+    </div>
+    <div class="col">
+    <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-anastasiya-gepp-2065200.jpg">
+    <h6 class="mt-2 text-center">CHEMISE BLANCHE</h6>
+    <p class="text-center">39,99 EUR</p>
+    </div>
+  </div>
+</div>
 <?php 
 include('common/footer.php');  
