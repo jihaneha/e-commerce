@@ -146,7 +146,8 @@ include('navbarpage1.php');
   <div class="row">
     <div class="col">
     <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-1972115.jpeg">
-    <h6 class="mt-2 text-center">ROBE DRAPÉE NOIR </h6>
+    <h6 class="mt-2 text-center">BASCKET NOIR
+</h6>
     <p class="text-center">39,99 EUR</p>
     </div>
     <div class="col">
@@ -156,18 +157,18 @@ include('navbarpage1.php');
     </div>
     <div class="col">
     <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-1163194.jpeg">
-    <h6 class="mt-2 text-center">ROBE À IMPRIMÉ ANIMALIER</h6>
-    <p class="text-center">39,99 EUR</p>
+    <h6 class="mt-2 text-center">ROBE T-SHIRT</h6>
+    <p class="text-center">19,99 EUR</p>
     </div>
     <div class="col">
     <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-2043590.jpeg">
-    <h6 class="mt-2 text-center">COMBI-SHORT FLUID</h6>
-    <p class="text-center">29,99 EUR</p>
+    <h6 class="mt-2 text-center">MANTEAU ROSE</h6>
+    <p class="text-center">49,99 EUR</p>
     </div>
     <div class="col">
     <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-photo-1040173.jpeg">
-    <h6 class="mt-2 text-center">ENSEMBLE TOP + JUPE</h6>
-    <p class="text-center">39,99 EUR</p>
+    <h6 class="mt-2 text-center">SAC NOIR</h6>
+    <p class="text-center">29,99 EUR</p>
     </div>
     <div class="col">
     <img class="img-responsive img-fluid cards border text-center d-block mx-auto " src="images/pexels-anastasiya-gepp-2065200.jpg">
