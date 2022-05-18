@@ -6,15 +6,12 @@ include('navbarpage1.php');
 <header>
 <div class="div1 ">
     <div class="div2">
-      <!-- <div>
-        <h1></h1>
-      </div> -->
     </div>
   </div>
 </header>
 <!-- fin de la section principale -->
 <section class="section2" >
-  <h1 class="text-center mb-4">Les beaux jours arrivent ! </h1>
+  <h1 class="text-center mb-4 hh">Les beaux jours arrivent ! </h1>
  <!-- les cartes de la premiere section  -->
  <div class="container-fluid ">
     <div class="container">
@@ -178,7 +175,7 @@ include('navbarpage1.php');
   </div>
 </div>
 <!-- newsletter  -->
-<div class="text-center divnw">
+<div class="text-center divnw" onmouseover="sweetalert();">
   <h4>-10% DE REDUCTION</h4>
   <p>EN VOUS ABONNANT À NOTRE NEWSLETTER</p>
   <p>Retrouvez-y également toutes nos actus & offres exclusives</p>
@@ -190,3 +187,4 @@ include('navbarpage1.php');
 
 <?php
 include('common/footer.php');
+?>
