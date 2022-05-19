@@ -3,7 +3,7 @@ include('common/head.php');
 include('common/menu.php');
 ?>
 <div>
-  <ul class="d-flex justify-content-center m-5">
+  <ul class="d-flex justify-content-center m-5 ul-blazer">
     <li class="m"><a class="nav-link text-dark"  href="#">TOUT VOIR</a></li>
     <li><a class="nav-link text-dark" href="#">TEXTURÉES</a></li>
     <li><a class="nav-link text-dark" href="#">NOIRES</a></li>
