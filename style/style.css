@@ -19,7 +19,9 @@ header{
   width:100%;
   height: 100vh;
 }
-
+.nav-link{
+  padding: 0.5rem 0.5rem !important;
+}
 .burger{
   
   margin-left: 10px;
@@ -45,7 +47,7 @@ header{
   border-radius: 30px;
   border: none;
   outline: none;
-  
+  font-size: 1rem;
 }
 .ouvrir{
   display: block;
@@ -79,7 +81,7 @@ header{
     background-image: url('../images/pexels-godisable-jacob-3689122.jpg');
   }
   75% {
-    background-image: url('../images/pexels-godisable-jacob-3689157.jpg');
+    background-image: url('../images/pexels-godisable-jacob-886404.jpg');
   }
   100% {
     background-image: url('../images/pexels-godisable-jacob-3689150.jpg') ; 
@@ -163,111 +165,212 @@ header{
   margin-top:100px;
   margin-bottom: 100px;
 }
-/* carousel page article */
-
-.swiper-container {
-  overflow: hidden;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  @media (min-width: $breakpoint) {
-    min-height: 320px;
-  }
-  &-wrapper {
-    display: flex;
-    flex-flow: column nowrap;
-    @media (min-width: $breakpoint) {
-      flex-flow: row nowrap;
-    }
-    height: 100vh;
-    width: 100vw;
-  }
-}
-
-.swiper-button {
-  &-next,
-  &-prev {
-    color: #000;
-  }
-}
-
-.swiper-slide {
-  text-align: center;
+/* sweet alert */
+.sweet{
+  background-image: url('../images/pexels-monstera-7691089.jpg') ;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-color: #fff;
+}
 
-  /* Center slide text vertically */
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-
-  /* Slide content */
-  .description,
-  .title {
-    display: block;
-    opacity: 0;
-    transition: 0.5s ease 0.5s;
+@media screen and (max-width:1194px){
+  .navLinks {
+    width: 30%;
+    height: 100vh;
   }
-  &-active {
-    .description,
-    .title {
-      opacity: 1;
-    }
-    .title {
-      margin-bottom: 0.5rem;
-      font-size: 24px;
-      color: #000;
-      transition: opacity 0.5s ease 0.5s;
-    }
-    .description {
-      font-size: 16px;
-      color: #777;
-      transition: opacity 0.5s ease 0.75s;
-    }
+  .div1{
+    height: 88vh;
+  }
+  .div2{
+    height: 88vh;
+  }
+  header{
+    height: 88vh;
+  }
+}
+@media screen and (max-width:1077px){
+  .navLinks {
+    width: 30%;
+    height: 100vh;
+  }
+  .div1{
+    height: 80vh;
+  }
+  .div2{
+    height: 80vh;
+  }
+  header{
+    height: 80vh;
+  }
+}
+@media screen and (max-width:970px){
+  .navLinks {
+    width: 30%;
+    height: 76vh;
+  }
+  .div1{
+    height: 76vh;
+  }
+  .div2{
+    height: 76vh;
+  }
+  header{
+    height: 76vh;
+  }
+}
+@media screen and (max-width:739px){
+  .navLinks {
+    width: 35%;
+    height: 70vh;
+  }
+  .div1{
+    height: 70vh;
+  }
+  .div2{
+    height: 70vh;
+  }
+  header{
+    height: 70vh;
+  }
+}
+@media screen and (max-width:630px){
+  .navLinks {
+    width: 40%;
+    height: 66vh;
+  }
+  .div1{
+    height: 66vh;
+  }
+  .div2{
+    height: 66vh;
+  }
+  header{
+    height: 66vh;
+  }
+}
+@media screen and (max-width:550px){
+  .navLinks {
+    width: 45%;
+    height: 65vh;
+  }
+  .div1{
+    height: 65vh;
+  }
+  .div2{
+    height: 65vh;
+  }
+  header{
+    height: 65vh;
+  }
+  .logo {
+    width: 40px;
+    height: 50px;
+}
+}
+@media screen and (max-width:510px){
+  .navLinks {
+    width: 46%;
+  }
+  .logo {
+    width: 40px;
+    height: 50px;
+}
+
+.search{
+  font-size: 0.8rem;
+}
+
+}
+
+@media screen and (max-width:470px){
+  
+  .navLinks {
+    width: 50%;
+    height: 60vh;
+  }
+  .div1{
+    height: 60vh;
+  }
+  .div2{
+    height: 60vh;
+  }
+  header{
+    height: 60vh;
+  }
+  .logo {
+    width: 40px;
+    height: 50px;
+}
+.search{
+  font-size: 0.6rem;
+}
+}
+@media screen and (max-width:420px){
+  
+  .navLinks {
+    width: 60%;
+    height: 88vh;
+  }
+  .div1{
+    height: 58vh;
+  }
+  .div2{
+    height: 58vh;
+  }
+  header{
+    height: 58vh;
+  }
+  .logo {
+    width: 40px;
+    height: 50px;
+  }
+  .open .search{
+  display: none;
   }
 }
 
-.gallery-top {
-  position: relative;
-  width: 100%;
-  height: 75vh;
-  @media (min-width: $breakpoint) {
-    width: 80%;
-    height: 100vh;
-    margin-right: 10px;
+@media screen and (max-width:355px){
+  .navLinks {
+    width: 65%;
+  }
+  .div1{
+    height: 45vh;
+  }
+  .div2{
+    height: 45vh;
+  }
+  header{
+    height: 45vh;
   }
 }
-
-.gallery-thumbs {
-  width: 100%;
-  height: 25vh;
-  padding-top: 10px;
-  @media (min-width: $breakpoint) {
-    width: 20%;
-    height: 100vh;
-    padding: 0;
+@media screen and (max-width:324px){
+  .navLinks {  
+    width: 100%;
+    height: 90vh;
   }
-  .swiper-wrapper {
-    flex-direction: row;
-    @media (min-width: $breakpoint) {
-      flex-direction: column;
+  .div1{
+    height:  40vh;
+  }
+  .div2{
+    height:  40vh;
+  }
+  header{
+    height: 40vh;
+  }
+  .open .divnav2{
+    display: none;
     }
+}
+@media screen and (max-width:300px){
+  
+  .div1{
+    height:  36vh;
   }
-  .swiper-slide {
-    width: 25%;
-    flex-flow: row nowrap;
-    @media (min-width: $breakpoint) {
-      flex-flow: column nowrap;
-      width: 100%;
-    }
-    height: 100%;
-    opacity: 0.75;
-    cursor: pointer;
+  .div2{
+    height:  36vh;
   }
-  .swiper-slide-thumb-active {
-    opacity: 1;
+  header{
+    height: 36vh;
   }
+  
 }
 
