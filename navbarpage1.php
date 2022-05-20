@@ -8,12 +8,12 @@
                 <div class="divnav">
                     <ul class="navLinks">
                         <li >
-                            <a href="new.php" class="nav-link text-dark ">NOUVEAUTÉS</a>
+                            <a href="new.php" class="nav-link text-dark">NOUVEAUTÉS</a>
                         </li>
                         <li >
                             <a href="#" class="nav-link text-dark ">FEMME</a>
                         </li>
-                        <ul>
+                        
                             <li>
                                 <a href="new.php" class=" nav-link text-dark">Blazer|Vestes</a>
                             </li>
@@ -29,11 +29,11 @@
                             <li>
                                 <a href="#" class=" nav-link text-dark">Ensemble</a>
                             </li>
-                        </ul>
+                        
                         <li >
                             <a href="#" class=" nav-link text-dark">CHAUSSURES</a>
                         </li>
-                        <ul>
+                        
                             <li>
                                 <a href="#" class=" nav-link text-dark">Baskets</a>
                             </li>
@@ -46,7 +46,7 @@
                             <li>
                                 <a href="#" class=" nav-link text-dark">Bottines|Bottes</a>
                             </li>
-                        </ul>
+                        
                         <li >
                             <a href="#" class=" nav-link text-dark">ACCESSOIRES</a>
                         </li>
