@@ -16,7 +16,6 @@
     </div>
 </div>
 </div>
-<br>
     <footer>
         <div class="container-fluid border-top">
             <div class="container">
@@ -45,16 +44,16 @@
            <li class="icone"><a class="nav-link text-dark" href="https://mail.google.com/"><i class="fas fa-at"></i></a></li>
            </ul>
            <div class="logo px-5">
-                <a href="index.php"><img src="images/GIGI'S BRAND (2) (4).png"></a>
+                <a href="index.php"><img src="images/logo.png" alt="logo"></a>
             </div>
        </div>
     </div>
 </div>
 </div>
-</div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
-    <script src="main.js" type="text/javascript"></script>
+    <script src="main.js"></script>
 </body>
 </html>

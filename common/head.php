@@ -10,5 +10,5 @@
         <link rel="stylesheet" href="style/bootstrap.min.css">
         <link href="style/style.css" rel="stylesheet">
         <title>GIGI'S BRAND</title>
-        <link rel="icon" type="image/x-icon" href="images/litera-G (1).png">
+        <link rel="icon" type="image/x-icon" href="images/gg.png">
     </head>

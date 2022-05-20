@@ -12,13 +12,12 @@
                         </li>
                         <li >
                             <a href="#" class="nav-link text-dark ">FEMME</a>
-                        </li>
-                        <ul>
+                            </li>
                             <li>
                                 <a href="blazer.php" class=" nav-link text-dark">Blazer|Vestes</a>
                             </li>
                             <li>
-                                <a href="#" class=" nav-link text-dark">Pantalons|Jupes</a>
+                                <a href="#" class=" nav-link text-dark ">Pantalons|Jupes</a>
                             </li>
                             <li>
                                 <a href="#" class=" nav-link text-dark">Chemises|Blouses</a>
@@ -29,12 +28,11 @@
                             <li>
                                 <a href="#" class=" nav-link text-dark">Ensemble</a>
                             </li>
-                        </ul>
                         <li >
                             <a href="#" class=" nav-link text-dark">CHAUSSURES</a>
+                            
                         </li>
-                        <ul>
-                            <li>
+                        <li>
                                 <a href="#" class=" nav-link text-dark">Baskets</a>
                             </li>
                             <li>
@@ -46,7 +44,6 @@
                             <li>
                                 <a href="#" class=" nav-link text-dark">Bottines|Bottes</a>
                             </li>
-                        </ul>
                         <li >
                             <a href="#" class=" nav-link text-dark">ACCESSOIRES</a>
                         </li>
@@ -57,13 +54,14 @@
                 </div>
             </div>
             <div class="logo ml-2">
-                <a href="index.php"><img src="images/GIGI'S BRAND (2) (4).png"></a>
+                <a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a>
             </div>
             <div class="divnav2">
                 <ul class="d-flex">
                     <li>
                         <form class="m-2">
-                            <input class="search" type="search" placeholder="RECHERCHER"></form>
+                            <input class="search" type="search" placeholder="RECHERCHER">
+                        </form>
                         </li>
                         <li >
                             <a href="login.php" class="
