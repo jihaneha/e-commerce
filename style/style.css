@@ -30,6 +30,8 @@ header{
   cursor: pointer;
 }
 .navLinks {
+  padding:40px;
+  line-height: 2;
   background-color: white ;
   position: absolute;
   left: 0;
