@@ -2,8 +2,10 @@
 include('common/head.php');
 include('navbarpage1.php');
 ?>
+
 <!-- header -->
 <header>
+  <!-- slider -->
 <div class="div1 ">
     <div class="div2">
     </div>
@@ -140,6 +142,7 @@ include('navbarpage1.php');
 </div>
 </div> 
 </div>
+<!-- slider 2 -->
 <div class="container">
   <div class="row">
     <div class="col">
