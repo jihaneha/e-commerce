@@ -42,7 +42,10 @@ header{
   transition: transform 1s ;
   z-index: -1;
 }
-
+.logo {
+ 
+  margin-left: 9rem;
+}
 .search {
   text-align: center;
   background-color: #f2f2f2;
@@ -173,6 +176,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* page article*/
 
 @media screen and (max-width:1194px){
   .navLinks {
