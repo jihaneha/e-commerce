@@ -8,10 +8,10 @@
                 <div class="divnav">
                     <ul class="navLinks">
                         <li >
-                            <a href="new.php" class="nav-link text-dark ">NOUVEAUTÉS</a>
+                            <a href="new.php" class="text-dark">NOUVEAUTÉS</a>
                         </li>
                         <li >
-                            <a href="#" class="nav-link text-dark ">FEMME</a>
+                            <a href="#" class=" text-dark ">FEMME</a>
                             </li>
                             <li>
                                 <a href="blazer.php" class=" nav-link text-dark">Blazer|Vestes</a>
@@ -29,7 +29,7 @@
                                 <a href="#" class=" nav-link text-dark">Ensemble</a>
                             </li>
                         <li >
-                            <a href="#" class=" nav-link text-dark">CHAUSSURES</a>
+                            <a href="#" class=" text-dark">CHAUSSURES</a>
                             
                         </li>
                         <li>
@@ -45,16 +45,18 @@
                                 <a href="#" class=" nav-link text-dark">Bottines|Bottes</a>
                             </li>
                         <li >
-                            <a href="#" class=" nav-link text-dark">ACCESSOIRES</a>
+                            <a href="#" class=" text-dark">ACCESSOIRES</a>
                         </li>
                         <li >
-                            <a href="#" class=" nav-link text-dark">PROMOTIONS</a>
+                            <a href="#" class=" text-dark">PROMOTIONS</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="logo ml-2">
-                <a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a>
+                <a href="index.php">
+                    <img class="logo" src="images/logo.png" alt="logo">
+                </a>
             </div>
             <div class="divnav2">
                 <ul class="d-flex">

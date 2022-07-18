@@ -43,7 +43,7 @@
            <li class="icone"><a class="nav-link text-dark" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a></li>
            <li class="icone"><a class="nav-link text-dark" href="https://mail.google.com/"><i class="fas fa-at"></i></a></li>
            </ul>
-           <div class="logo px-5">
+           <div class=" px-5">
                 <a href="index.php"><img src="images/logo.png" alt="logo"></a>
             </div>
        </div>
@@ -53,6 +53,7 @@
     </footer>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
     <script src="main.js"></script>
 </body>
