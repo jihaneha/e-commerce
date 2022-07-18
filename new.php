@@ -3,7 +3,7 @@ include('common/head.php');
 include('common/menu.php');
 ?>
 <h1 class="h1">NOUVEAUTÉS</h1>
-<button>Filtrer</button>
+
 <div class="container-fluid">
   <div class="container">
      <div class="row">
@@ -120,27 +120,7 @@ include('common/menu.php');
   </div>
 </div> 
 </div>
-<div class="col-12 text-center">
-<nav aria-label="Page navigation example" >
-  <ul class="pagination text-center ">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        <span class="sr-only">Next</span>
-      </a>
-    </li>
-  </ul>
-</nav>
-</div>
+
 
 <?php 
 include('common/footer.php');   

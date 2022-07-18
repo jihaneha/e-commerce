@@ -8,10 +8,10 @@
                 <div class="divnav">
                     <ul class="navLinks">
                         <li >
-                            <a href="new.php" class="nav-link text-dark">NOUVEAUTÉS</a>
+                            <a href="new.php" class=" text-dark">NOUVEAUTÉS</a>
                         </li>
                         <li >
-                            <a href="#" class="nav-link text-dark ">FEMME</a>
+                            <a href="#" class="text-dark ">FEMME</a>
                         </li>
                         
                             <li>
@@ -31,7 +31,7 @@
                             </li>
                         
                         <li >
-                            <a href="#" class=" nav-link text-dark">CHAUSSURES</a>
+                            <a href="#" class=" text-dark">CHAUSSURES</a>
                         </li>
                         
                             <li>
@@ -48,10 +48,10 @@
                             </li>
                         
                         <li >
-                            <a href="#" class=" nav-link text-dark">ACCESSOIRES</a>
+                            <a href="#" class=" text-dark">ACCESSOIRES</a>
                         </li>
                         <li >
-                            <a href="#" class=" nav-link text-dark">PROMOTIONS</a>
+                            <a href="#" class=" text-dark">PROMOTIONS</a>
                         </li>
                     </ul>
                 </div>
